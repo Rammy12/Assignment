@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".fragment.add_bank2">
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textAllCaps="true"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/bkt2"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:text="Add Bank Account"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/bkt2"
+            android:text="Account Number:"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="@drawable/add_money_btn_design"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Account Number"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_height="wrap_content"/>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/spinner"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/add_money_btn_design"
+            android:layout_marginEnd="10dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/bkt2"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Account Holder Name:"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/add_money_btn_design"
+            android:padding="10dp"
+            android:hint="Enter Account Holder Name"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/bkt2"
+            android:layout_marginStart="10dp"
+            android:text="IFCS Code:"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/add_money_btn_design"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:layout_marginEnd="10dp"
+            android:hint="Enter IFCS Code"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Add Account"
+            android:textAllCaps="true"
+            android:padding="10dp"
+            android:background="@drawable/add_account_btn_design"
+            android:layout_marginBottom="30dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</LinearLayout>

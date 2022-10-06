@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.add_bank1">
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="260dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical"
+            android:background="#D2F4F4"
+            android:padding="20dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No Bank Accounts!"
+                android:textColor="@color/bkt2"
+                android:textStyle="bold"
+                android:textSize="24sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/bkt2"
+                android:text="Please add a Bank Account"/>
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bank"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            android:textColor="@color/bkt2"
+            android:background="#C3EDED"
+            android:layout_marginTop="60dp"
+            android:text="add a bank account"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">poputatoe-assignment</string>
+    <string name="text">100 reward points =1 putatoe credit\n1 putatoe credit= 1 rupee\nCan be redeemed to your bank account on amount above ₹ 10,000</string>
+    <string-array name="account">
+        <item>Select Account Type</item>
+        <item>Saving</item>
+        <item>Current</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
